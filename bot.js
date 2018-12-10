@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('NTEwODg1OTUxMzkyODQxNzQw.DtH-Nw.yQubWwPhtsotbnAC9q6hzXWEbiY');
+client.login(token);
 
 var searchScope = 20; // number of chars the bot searches after a key for further cues
 var msgHelp = 		'Positivity bot is here to help! \n \n' + 
