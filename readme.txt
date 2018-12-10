@@ -1,14 +1,18 @@
-** CURRENTLY IMPLEMENTED **
+#Positivity Bot
+Positivity Bot is a basic language processing script which searches for negative phrases and sends positivity to the user on Discord. 
+
+##Currently Implemented
 > I am ___ (negative), I feel ___
 	> You are not __, @user, you are <supportive phrase>
+> ___ is hard
+	> Yeah, I understand that ___ can be really challenging at times. We're here if you ever need support!
 > /love
-	> You can do it! You're amazing!
+	> Sends a positive message to @user
 > /help
 	> List commands
 
-** YET TO BE IMPLEMENTED **
-Functional programming? Streamline project / improve readability and consistency (in posBot bookmark folder && CS143 notebook
-
+##Future Goals
+> Convert to functional programming
 > /happysong
 	> Play a happy little tune
 > I want to die, I hate myself
