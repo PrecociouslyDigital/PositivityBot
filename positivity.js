@@ -105,7 +105,7 @@ registerLowercaseListener((message, lowMessage) => {
                 if (args.length > 1) {
 
                 } else {
-                    message.reply(getAffirmation());
+                    return getAffirmation();
                 }
             break;
 /*          case 'joinvoice':
@@ -127,7 +127,7 @@ registerLowercaseListener((message, lowMessage) => {
                 message.channel.send('If Rythm isn\'t playing a song, check my connection to a voice channel.');
             break; */
             case 'help':
-                message.channel.send(msgHelp);
+                return message.channel.send(msgHelp);
             break;
         }
     }
