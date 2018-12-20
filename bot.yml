@@ -1,0 +1,5 @@
+apps:
+  - script   : ./bot.js
+    name     : 'Positivity Bot'
+    instances: 1
+    exec_mode: cluster

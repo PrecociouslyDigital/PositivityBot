@@ -1,0 +1,27 @@
+{
+  "name": "positivitybot",
+  "version": "0.1.0",
+  "description": "A positivity bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start bot.yml",
+    "restart": "pm2 restart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencerlu/PositivityBot.git"
+  },
+  "keywords": [
+    "positivity"
+  ],
+  "author": "spencerlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spencerlu/PositivityBot/issues"
+  },
+  "homepage": "https://github.com/spencerlu/PositivityBot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
